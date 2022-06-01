@@ -1,0 +1,12 @@
+{
+  "collective": {
+    "all-reduce": {
+      "algorithm": "bidir-ring"
+    }
+  },
+  "protocol": {
+    "sendrecv": {
+      "algorithm": "push"
+    }
+  }
+}

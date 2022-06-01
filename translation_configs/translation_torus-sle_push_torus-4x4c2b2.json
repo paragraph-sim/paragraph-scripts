@@ -1,0 +1,18 @@
+{
+    "collective": {
+        "all-reduce": {
+            "algorithm": "torus-2d",
+            "concentration": 2,
+            "dimension_widths": [
+                4,
+                4
+            ],
+            "integrated_local_exchange": false
+        }
+    },
+    "protocol": {
+        "sendrecv": {
+            "algorithm": "push"
+        }
+    }
+}

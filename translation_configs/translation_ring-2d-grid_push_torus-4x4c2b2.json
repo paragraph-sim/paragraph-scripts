@@ -1,0 +1,17 @@
+{
+    "collective": {
+        "all-reduce": {
+            "algorithm": "ring-2d-grid",
+            "concentration": 2,
+            "dimension_widths": [
+                4,
+                4
+            ]
+        }
+    },
+    "protocol": {
+        "sendrecv": {
+            "algorithm": "push"
+        }
+    }
+}
